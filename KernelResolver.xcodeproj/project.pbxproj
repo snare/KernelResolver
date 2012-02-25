@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF25B8314F8FA31005A0609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BF25B8114F8FA31005A0609 /* InfoPlist.strings */; };
+		7BF25B8514F8FA31005A0609 /* KernelResolver.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BF25B8414F8FA31005A0609 /* KernelResolver.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BF25B7914F8FA31005A0609 /* KernelResolver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KernelResolver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF25B7D14F8FA31005A0609 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		7BF25B8014F8FA31005A0609 /* KernelResolver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KernelResolver-Info.plist"; sourceTree = "<group>"; };
+		7BF25B8214F8FA31005A0609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BF25B8414F8FA31005A0609 /* KernelResolver.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KernelResolver.c; sourceTree = "<group>"; };
+		7BF25B8614F8FA31005A0609 /* KernelResolver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KernelResolver-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF25B7414F8FA31005A0609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF25B6C14F8FA31005A0609 = {
+			isa = PBXGroup;
+			children = (
+				7BF25B7E14F8FA31005A0609 /* KernelResolver */,
+				7BF25B7B14F8FA31005A0609 /* Frameworks */,
+				7BF25B7A14F8FA31005A0609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF25B7A14F8FA31005A0609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF25B7914F8FA31005A0609 /* KernelResolver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF25B7B14F8FA31005A0609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF25B7C14F8FA31005A0609 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BF25B7C14F8FA31005A0609 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF25B7D14F8FA31005A0609 /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7BF25B7E14F8FA31005A0609 /* KernelResolver */ = {
+			isa = PBXGroup;
+			children = (
+				7BF25B8414F8FA31005A0609 /* KernelResolver.c */,
+				7BF25B7F14F8FA31005A0609 /* Supporting Files */,
+			);
+			path = KernelResolver;
+			sourceTree = "<group>";
+		};
+		7BF25B7F14F8FA31005A0609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF25B8014F8FA31005A0609 /* KernelResolver-Info.plist */,
+				7BF25B8114F8FA31005A0609 /* InfoPlist.strings */,
+				7BF25B8614F8FA31005A0609 /* KernelResolver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7BF25B7514F8FA31005A0609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BF25B7814F8FA31005A0609 /* KernelResolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF25B8914F8FA31005A0609 /* Build configuration list for PBXNativeTarget "KernelResolver" */;
+			buildPhases = (
+				7BF25B7314F8FA31005A0609 /* Sources */,
+				7BF25B7414F8FA31005A0609 /* Frameworks */,
+				7BF25B7514F8FA31005A0609 /* Headers */,
+				7BF25B7614F8FA31005A0609 /* Resources */,
+				7BF25B7714F8FA31005A0609 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KernelResolver;
+			productName = KernelResolver;
+			productReference = 7BF25B7914F8FA31005A0609 /* KernelResolver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF25B6E14F8FA31005A0609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7BF25B7114F8FA31005A0609 /* Build configuration list for PBXProject "KernelResolver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BF25B6C14F8FA31005A0609;
+			productRefGroup = 7BF25B7A14F8FA31005A0609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF25B7814F8FA31005A0609 /* KernelResolver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF25B7614F8FA31005A0609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF25B8314F8FA31005A0609 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		7BF25B7714F8FA31005A0609 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF25B7314F8FA31005A0609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF25B8514F8FA31005A0609 /* KernelResolver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BF25B8114F8FA31005A0609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF25B8214F8FA31005A0609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF25B8714F8FA31005A0609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BF25B8814F8FA31005A0609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BF25B8A14F8FA31005A0609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KernelResolver/KernelResolver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "KernelResolver/KernelResolver-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = ax.ho.kext.KernelResolver;
+				MODULE_START = KernelResolver_start;
+				MODULE_STOP = KernelResolver_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		7BF25B8B14F8FA31005A0609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KernelResolver/KernelResolver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "KernelResolver/KernelResolver-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MODULE_NAME = ax.ho.kext.KernelResolver;
+				MODULE_START = KernelResolver_start;
+				MODULE_STOP = KernelResolver_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF25B7114F8FA31005A0609 /* Build configuration list for PBXProject "KernelResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF25B8714F8FA31005A0609 /* Debug */,
+				7BF25B8814F8FA31005A0609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF25B8914F8FA31005A0609 /* Build configuration list for PBXNativeTarget "KernelResolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF25B8A14F8FA31005A0609 /* Debug */,
+				7BF25B8B14F8FA31005A0609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF25B6E14F8FA31005A0609 /* Project object */;
+}
