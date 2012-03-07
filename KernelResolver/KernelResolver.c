@@ -4,6 +4,8 @@
  *
  * This is a simple example of how to resolve symbols in the kernel from within a kernel extension. There are much more
  * efficient ways to do this, but this should serve as a good starting point.
+ *
+ * See the following URL for more info: http://ho.ax/posts/2012/02/resolving-kernel-symbols/
  */
 
 #include <mach/mach_types.h>
